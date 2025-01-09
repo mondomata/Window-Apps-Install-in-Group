@@ -35,9 +35,7 @@ $apps = @(
 "IrfanSkiljan.IrfanView" #Best Img Viewer and Editor /Legjobb Képnézegető és képszerkesztő
 "VideoLAN.VLC" #Best sound, music, and video player /Legjobb zene és videó lejátszó
 
-#Window Defender System Security#
-
-#"9P6PMZTM93LR" #A Microsoft Windows Defender vírusirtó bármely Windows op.rendszerre, ha még nincs a rendszereden / if it is not in your system
+#"9P6PMZTM93LR" #default off install/alapért.szerint kikapcsolva a telepítése. If it is not in your system the Windows Defender sec.app/A Microsoft Windows Defender vírusirtó, ha még nincs a rendszereden. 
 
 )
 
