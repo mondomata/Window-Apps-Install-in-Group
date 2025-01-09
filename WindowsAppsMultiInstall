@@ -15,8 +15,8 @@ end push Enter /és nyomj entert (legal run down script /engedélyezed a lenti s
 (2) 
 In (3)th point after #Start#, and before #End# chars copy and paste to terminal, and push Enter.
 A (3). pontban található #Start# és #End# közötti szöveget másold a vágólapra (kijelölés majd Ctrl C) illeszd be a Terminál ablakba (Ctrl V), aztán nyomj Entert.
-The programms installing on Group.(internet connect need)
-Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell!)
+The programms installing in Group.(internet connect need, time maybe 5 minutes)
+Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell, időigény kb. 5 perc!)
 If 1-1 programm install cancel to you, the before "programline" write # (#"Google...")
 Ha 1-1 programot mégsem szeretnéd telepíteni, annak a sora elejére tegyél #-t, pl. #"Google...".
 
