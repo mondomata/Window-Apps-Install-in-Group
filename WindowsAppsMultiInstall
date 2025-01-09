@@ -1,0 +1,52 @@
+/***************************************************************************************
+Eng and hun language
+/Favorite or Best Apps Group install with Windows Powershell to Windows 10 or 11 System:
+/Favorit vagy Legjobb Programok csoportos telepítése Windows Powershell parancssorból Windows 10 vagy 11 /rendszeren:
+*****************************************************************************************/
+
+
+(1) 
+Open Powershell (Windows key + X key and click Terminal(admin))
+Nyisd meg a Terminált (Windows+X billentyűk, majd Terminál(rendszergazda) elem választása). 
+Copy and paste in terminal /Írd vagy másold be a megjelenő ablakba:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+end push Enter /és nyomj entert (legal run down script /engedélyezed a lenti szkript lefutását).
+
+(2) 
+In (3)th point after #Start#, and before #End# chars copy and paste to terminal, and push Enter.
+A (3). pontban található #Start# és #End# közötti szöveget másold a vágólapra (kijelölés majd Ctrl C) illeszd be a Terminál ablakba (Ctrl V), aztán nyomj Entert.
+The programms installing on Group.(internet connect need)
+Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell!)
+If 1-1 programm install cancel to you, the before "programline" write # (#"Google...")
+Ha 1-1 programot mégsem szeretnéd telepíteni, annak a sora elejére tegyél #-t, pl. #"Google...".
+
+(3)
+#Start#
+
+Write-Output "installing favorit apps - in Group"
+$apps = @(
+
+"Google.Chrome.EXE" #Chrome browser böngésző
+"Mozilla.Firefox" #Firefox browser böngésző
+"Brave.Brave" #Brave browser böngésző (Chrome engine, but best secure. Chrome motoros, de reklám mentes)
+
+"TheDocumentFoundation.LibreOffice" #best and libre Office pack /ingyenes, nyílt forráskódú Office programcsomag
+
+"IrfanSkiljan.IrfanView" #Best Img Viewer and Editor /Legjobb Képnézegető és képszerkesztő
+"VideoLAN.VLC" #Best sound, music, and video player /Legjobb zene és videó lejátszó
+
+#Window Defender System Security#
+
+#"9P6PMZTM93LR" #A Microsoft Windows Defender vírusirtó bármely Windows op.rendszerre, ha még nincs a rendszereden / if it is not in your system
+
+)
+
+foreach ($app in $apps) {
+    Write-Output "Trying to Install $app"
+
+    Winget Install $app
+    }
+
+#End#
+
+
