@@ -20,8 +20,8 @@ In (3)th point after #Start#, and before #End# chars copy and paste to Powershel
 A (3). pontban található #Start# és #End# közötti szöveget másold a vágólapra (kijelölés majd Ctrl C) illeszd be a Powershell vagy Terminál ablakba (Ctrl V), aztán nyomj Entert.
 Result: the programms installing in Group.(internet connect need, time maybe 5 minutes)
 Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell, időigény kb. 5 perc!)
-If 1-1 programm install cancel to you, down, the before "programline" write # (#"Google.Chr..")
-Ha 1-1 programo mégsem kell neked, annak lejjebb a "programsor" elejére tegyél #-t, pl. #"Google.Chr..".
+If 1-1 programm install cancel to you, down, the before "programline" write # (#"Google.Chrome.EXE" =not istall Chrome)
+Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél #-t, (pl. #"Google.Chrome.EXE" =nem települ a Chrome)
 
 (3)
 #>
@@ -31,16 +31,16 @@ Ha 1-1 programo mégsem kell neked, annak lejjebb a "programsor" elejére tegyé
 Write-Output "installing favorit apps - in Group / Favorit Appok installja - csoportosan"
 $apps = @(
 
-"Google.Chrome.EXE" #Chrome browser böngésző
-"Mozilla.Firefox" #Firefox browser böngésző
-"Brave.Brave" #Brave browser böngésző (Chrome engine, but ad-free, secure, personal protect / Chrome motoros, de reklám mentes)
+"Google.Chrome.EXE" <#Chrome browser böngésző #>
+"Mozilla.Firefox" <#Firefox browser böngésző #>
+"Brave.Brave" <# Brave browser böngésző (Chrome engine, but ad-free, secure, personal protect / Chrome motoros, de reklám mentes) #>
 
 "TheDocumentFoundation.LibreOffice" <# best and libre Office text-table-prezent.pack / ingyenes, nyílt forráskódú Office szövegszerk-táblázatkez-prezentáció programcsomag #>
 
 "IrfanSkiljan.IrfanView" #Best Img Viewer and Editor / Legjobb Képnézegető és képszerkesztő
 "VideoLAN.VLC" #Best sound, music, and video player / Legjobb zene és videó lejátszó
 
-#"9P6PMZTM93LR" <# default install off / alapért.szerint kikapcsolva a telepítése. If it is not in your system the Windows Defender sec.app, del in this line first # / A Microsoft Windows Defender vírusirtó, ha még nincs a rendszereden, töröld a sor legelején a #-t. #> 
+"9P6PMZTM93LR" <# The Best Microsoft Windows Defender sec.app. No need price, if is good and fast without price / A Legjobb Microsoft Windows Defender vírusirtó. Felesleges fizetni, ha van ilyen jó és gyors ingyenes #> 
 
 )
 
