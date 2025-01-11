@@ -31,7 +31,9 @@ Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél
 
 Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
 Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT MAYBE UNINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
-Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE AZ ABLAKOT."
+Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
+Write-Output "Nyomd le bármelyik billentyűt..."
+PAUSE
 $apps = @(
 
 "Google.Chrome.EXE" <#Chrome browser böngésző #>
