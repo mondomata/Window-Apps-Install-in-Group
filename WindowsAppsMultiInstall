@@ -9,11 +9,12 @@ Windows 10 vagy 11 /rendszeren:
 (1) 
 Open Powershell (Windows key + X key and click Win10 Powershell(admin) or Win11 Terminal(admin))
 /Nyisd meg a Terminált (Windows+X billentyűk, majd Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elem választása). 
-Copy and paste in terminal: / Írd vagy másold be a megjelenő ablakba:
+Copy and paste in terminal the next, beginning width Set-Exec... line: / Írd vagy másold be a megjelenő ablakba a következő, Set-Exec... kezdetű sort: #> 
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
-end push Enter /és nyomj entert (legal run down script /engedélyezed a lenti szkript lefutását).
+<#
+and push Enter /és nyomj entert (legal run down script /engedélyezed a lenti szkript lefutását).
 (if question, push Apply / ha kéri, nyomj Applyt)
 (2) 
 In (3)th point after #Start#, and before #End# chars copy and paste to Powershell or Terminal window, and push Enter.
