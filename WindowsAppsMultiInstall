@@ -9,8 +9,8 @@ Ha tetszik minden, a teljes szöveget másold a Powershell(rendszergazda) ablakb
 *****************************************************************************************/
 
 (1) 
-Open Powershell (Windows key + X key and click Win10 Powershell(admin) or Win11 Terminal(admin))
-/Nyisd meg a Terminált (Windows+X billentyűk, majd Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elem választása). 
+Open Powershell (right click Start and click Win10 Powershell(admin) or Win11 Terminal(admin))
+/Nyisd meg a Terminált (jobb gombbal klikk a Tálca/Start, majd klikk Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elemre). 
 
 (2) 
 In (3)th point after #Start#, and before #End# chars copy and paste to Powershell or Terminal window, and push Enter.
