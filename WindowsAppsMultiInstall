@@ -1,23 +1,26 @@
 <# 
 /***************************************************************************************
-Eng and hun lang. (author:@mondomata 9.jan.'25)
-/Favorite or Best Apps Group install with Windows Powershell to Windows 10 or 11 System:
-/Favorit vagy Legjobb Programok csoportos telepítése Windows Powershell parancssorból 
-Windows 10 vagy 11 /rendszeren.
+Eng and /hun lang. (author:@mondomata 9.jan.'25)
+Favorite or Best Apps Group install with Windows Powershell to Windows 10 or 11 System
 If you like all, full text copy to Powershell(admin) window, and run width Enter.
+
+/Favorit vagy Legjobb Programok csoportos telepítése Windows Powershell parancssorból 
+Windows 10 vagy 11 rendszeren.
 Ha tetszik minden, a teljes szöveget másold a Powershell(rendszergazda) ablakba és futtasd Enterrel.
 *****************************************************************************************/
 
 (1) 
 Open Powershell (right click Start and click Win10 Powershell(admin) or Win11 Terminal(admin))
+
 /Nyisd meg a Terminált (jobb gombbal klikk a Tálca/Start, majd klikk Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elemre). 
 
 (2) 
 In (3)th point after #Start#, and before #End# chars copy and paste to Powershell or Terminal window, and push Enter.
-A (3). pontban található #Start# és #End# közötti szöveget másold a vágólapra (kijelölés majd Ctrl C) illeszd be a Powershell vagy Terminál ablakba (Ctrl V), aztán nyomj Entert.
 Result: the programms installing in Group.(internet connect need)
-Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell)
 If 1-1 programm install cancel to you, down, the before "programline" write # (#"Google.Chrome.EXE" =not istall Chrome)
+
+/A (3). pontban található #Start# és #End# közötti szöveget másold a vágólapra (kijelölés majd Ctrl C) illeszd be a Powershell vagy Terminál ablakba (Ctrl V), aztán nyomj Entert.
+Eredmény: a kijelölt programok csoportosan települnek a Windows rendszeredbe (internet kapcsolat kell)
 Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél #-t, (pl. #"Google.Chrome.EXE" =nem települ a Chrome)
 
 (3)
