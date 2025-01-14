@@ -41,7 +41,7 @@ $apps = @(
 "IrfanSkiljan.IrfanView" #Best Img Viewer and Editor / Legjobb Képnézegető és képszerkesztő
 "VideoLAN.VLC" #Best sound, music, and video player / Legjobb zene és videó lejátszó
 
-"9P6PMZTM93LR" <# The Best Microsoft Windows Defender sec.app. No need price, if is good and fast without price / A Legjobb Microsoft Windows Defender vírusirtó. Felesleges fizetni, ha van ilyen jó és gyors ingyenes #> 
+#"9P6PMZTM93LR" <# The Best Microsoft Windows Defender sec.app only with MS account. No need price, if is good and fast without price / A Legjobb Microsoft Windows Defender vírusirtó. Csak MS fiókkal! Felesleges fizetni, ha van ilyen jó és gyors ingyenes #> 
 
 )
 
