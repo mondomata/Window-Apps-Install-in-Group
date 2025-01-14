@@ -1,6 +1,6 @@
 <# 
 /***************************************************************************************
-Eng and /hun lang. (author:@mondomata 9.jan.'25)
+ENG / HUN language. (github.com/mondomata)
 Favorite or Best Apps Group install with Windows Powershell to Windows 10 or 11 System
 If you like all, full text copy to Powershell(admin) window, and run width Enter.
 
@@ -10,9 +10,9 @@ Ha tetszik minden, a teljes szöveget másold a Powershell(rendszergazda) ablakb
 *****************************************************************************************/
 
 (1) 
-Open Powershell (right click Start and click Win10 Powershell(admin) or Win11 Terminal(admin))
+Open Powershell: right click Start and click Win10 Powershell(admin) or Win11 Terminal(admin)
 
-/Nyisd meg a Terminált (jobb gombbal klikk a Tálca/Start, majd klikk Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elemre). 
+/Nyisd meg a Terminált: jobb gombbal klikk a Tálca/Start-ra, majd Win10-en Powershell(rendszergazda) vagy Win11-en Terminál(rendszergazda) elemre. 
 
 (2) 
 Down the #Start# to #End# full text copy and paste to Powershell or Terminal window, and push Enter.
