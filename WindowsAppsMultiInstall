@@ -54,8 +54,9 @@ foreach ($app in $apps) {
 
     Winget Install $app
     }
-mkdir Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C} #GODMODE best extended Control panel / Godmode, a legjobb kiterjesztett Vezérlőpult
+md Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C} #GODMODE best extended Control panel / Godmode, a legjobb kiterjesztett Vezérlőpult
 EXTRA! EXTRA! EXTRA! Wait. / Várj egy kicsit... (Million thank Chris Titus)
+pause
 iwr -useb https://christitus.com/win | iex
 
 
