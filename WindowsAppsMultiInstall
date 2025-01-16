@@ -58,7 +58,8 @@ foreach ($app in $apps) {
 <# GODMODE best extended Control panel: / Godmode, a legjobb kiterjesztett Vezérlőpult: #>
 md Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C} 
 
-echo EXTRA! EXTRA! EXTRA! Wait. / Várj egy kicsit... (Million thank Chris Titus) Enter...
+
+echo EXTRA! EXTRA! EXTRA! Wait. / Várj egy kicsit... Million thank ChrisTitus.com. Enter...
 pause
 iwr -useb https://christitus.com/win | iex
 
