@@ -44,8 +44,6 @@ $apps = @(
 "IrfanSkiljan.IrfanView" #Best Img Viewer and Editor / Legjobb Képnézegető és képszerkesztő
 "VideoLAN.VLC" #Best sound, music, and video player / Legjobb zene és videó lejátszó
 "FreeCommander" #Free file menager / Kiváló ingyenes fájlkezelő
-md Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C} #GODMODE best extended Control panel / Godmode, a legjobb kiterjesztett Vezérlőpult
-
 
 #"9P6PMZTM93LR" <# The Best Microsoft Windows Defender sec.app only with MS account. No need price, if is good and fast without price / A Legjobb Microsoft Windows Defender vírusirtó. Csak MS fiókkal! Felesleges fizetni, ha van ilyen jó és gyors ingyenes #> 
 
@@ -56,10 +54,13 @@ foreach ($app in $apps) {
 
     Winget Install $app
     }
-
-echo The Work is out. / A munka elvégezve.
+md Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C} #GODMODE best extended Control panel / Godmode, a legjobb kiterjesztett Vezérlőpult
+<#
+echo ++++++++++++++++++++++++++
+echo Congrat., the Work is out. / Gratula, a munka elvégezve.
 echo For more amazing options, type this into powershell and press enter: /További szenzációs lehetőségekért írd be a powershellbe, és nyomj entert:
 echo iwr -useb https://christitus.com/win | iex
+#>
 
 #End#
 
