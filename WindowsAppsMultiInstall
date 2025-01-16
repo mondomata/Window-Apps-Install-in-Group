@@ -57,6 +57,10 @@ foreach ($app in $apps) {
     Winget Install $app
     }
 
+echo The Work is out. / A munka elvégezve.
+echo For more amazing options, type this into powershell and press enter: /További szenzációs lehetőségekért írd be a powershellbe, és nyomj entert:
+echo iwr -useb https://christitus.com/win | iex
+
 #End#
 
 
