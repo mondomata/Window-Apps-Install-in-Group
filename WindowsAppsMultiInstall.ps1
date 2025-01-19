@@ -33,7 +33,8 @@ foreach ($app in $apps) {
     Winget Install $app
     }
 
-Write-Output "Plus gift - Godmode best extended Control panel made: / Plusz ajándék - Godmode, a legjobb kiterjesztett Vezérlőpult létrehozva:"
+Write-Output "Plus gift - Godmode best extended Control panel made:"
+Write-Output "Plusz ajándék - Godmode, a legjobb kiterjesztett Vezérlőpult létrehozva:"
 
 New-Item -Path '.\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
 
