@@ -27,13 +27,13 @@ Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél
 #>
 
 #Start#
-Write-Output "Push Y so yes, to run of script."
-Write-Output "Nyomj Y-t, mint yes/igent a szkript lefutásának engedélyezéséhez."
+Write-Output "Push Y so yes, to run of script." -ForegroundColor Yellow -BackgroundColor Blue
+Write-Output "Nyomj Y-t, mint yes/igent a szkript lefutásának engedélyezéséhez." -ForegroundColor Yellow -BackgroundColor Blue
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
+Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN" -ForegroundColor Yellow -BackgroundColor Green
 Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
 Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
-Write-Output "Push Enter. / Nyomj Entert."
+Write-Output "Push Enter. / Nyomj Entert." -ForegroundColor White -BackgroundColor Blue
 PAUSE
 $apps = @(
 
@@ -57,10 +57,12 @@ foreach ($app in $apps) {
     Winget Install $app
     }
 
-<# GODMODE best extended Control panel: / Godmode, a legjobb kiterjesztett Vezérlőpult: #>
-New-Item -Path 'Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
+Write-Output "Plus gift - Godmode best extended Control panel made: / Plusz ajándék - Godmode, a legjobb kiterjesztett Vezérlőpult létrehozva:"
 
-echo "EXTRA! EXTRA! EXTRA! Wait. / Várj egy kicsit... Million thank ChrisTitus.com. Enter..."
+New-Item -Path '.\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
+
+Write-Output "EXTRA! EXTRA! EXTRA! Wait. No need? Close Windows/ Várj egy kicsit... Mutatok egy webes szkriptet, amivel rengeteg Windows beállítást tudsz elvégezni, nagyon egyszerűen. Million thank ChrisTitus.com. Nyomj Entert... Ha nem érdekel, zárd be az ablakot." -ForegroundColor White -BackgroundColor Blue 
+Write-Output "Million thank ChrisTitus.com."
 pause
 iwr -useb https://christitus.com/win | iex
 
