@@ -1,10 +1,10 @@
 
-Write-Output "Push Y so yes, to run of script, if need to your machine. / Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez, ha kéri a géped."
+Write-Output "Push Y so yes, to run of script, if need to your machine. \n Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez, ha kéri a géped."
 Write-Output "********************************************************"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
-Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
-Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
+Write-Output "INSTALLING FAVORIT APPS IN GROUP \n FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
+Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL \n HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
+Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. \n MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
 Write-Output "___________________________"
 Write-Output "Nyomj ENTERT a folytatáshoz..."
 PAUSE
