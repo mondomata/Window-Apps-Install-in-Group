@@ -27,13 +27,14 @@ Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél
 #>
 
 #Start#
-Write-Output "Push Y so yes, to run of script." -ForegroundColor Yellow -BackgroundColor Blue
-Write-Output "Nyomj Y-t, mint yes/igent a szkript lefutásának engedélyezéséhez." -ForegroundColor Yellow -BackgroundColor Blue
+Write-Output "Push Y so yes, to run of script."
+Write-Output "Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez."
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN" -ForegroundColor Yellow -BackgroundColor Green
+Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
 Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
 Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
-Write-Output "Push Enter. / Nyomj Entert." -ForegroundColor White -BackgroundColor Blue
+Write-Output "___________________________"
+Write-Output "Push Enter. / Nyomj Entert."
 PAUSE
 $apps = @(
 
