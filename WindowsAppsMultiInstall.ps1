@@ -12,6 +12,8 @@ Write-Output "MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
 Write-Output "______________________________"
 Write-Output "Nyomj ENTERT a folytatáshoz..."
 PAUSE
+Write-Output "START INSTALL PROGRAMMS... MOMENTS..."
+Write-Output "KEZDŐDIK A PROGRAMOK TELEPÍTÉSE... TÜRELEM..."
 $apps = @(
 
 "Google.Chrome.EXE" <#Chrome browser böngésző #>
