@@ -26,9 +26,7 @@ Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél
 (3)
 #>
 
-#Start#
-Write-Output "Push Y so yes, to run of script."
-Write-Output "Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez."
+Write-Output "Push Y so yes, to run of script. / Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez."
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
 Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
@@ -62,12 +60,7 @@ Write-Output "Plus gift - Godmode best extended Control panel made: / Plusz ajá
 
 New-Item -Path '.\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
 
-Write-Output "EXTRA! EXTRA! EXTRA! Wait. No need? Close Windows/ Várj egy kicsit... Mutatok egy webes szkriptet, amivel rengeteg Windows beállítást tudsz elvégezni, nagyon egyszerűen. Million thank ChrisTitus.com. Nyomj Entert... Ha nem érdekel, zárd be az ablakot." -ForegroundColor White -BackgroundColor Blue 
+Write-Output "EXTRA! EXTRA! EXTRA! Wait. No need? Close Windows/ Várj egy kicsit... Mutatok egy webes szkriptet, amivel rengeteg Windows beállítást tudsz elvégezni, nagyon egyszerűen. Million thank ChrisTitus.com. Nyomj Entert... Ha nem érdekel, zárd be az ablakot."
 Write-Output "Million thank ChrisTitus.com."
 pause
 iwr -useb https://christitus.com/win | iex
-
-
-#End#
-
-
