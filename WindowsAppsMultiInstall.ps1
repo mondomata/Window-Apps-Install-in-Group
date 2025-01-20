@@ -16,15 +16,15 @@ Write-Output "START INSTALL PROGRAMMS... MOMENTS..."
 Write-Output "KEZDŐDIK A PROGRAMOK TELEPÍTÉSE... TÜRELEM..."
 $apps = @(
 
-"Google.Chrome.EXE" <#Chrome browser böngésző #>
-"Mozilla.Firefox" <#Firefox browser böngésző #>
 "Brave.Brave" <# Brave browser böngésző (Chrome engine, but ad-free, secure, personal protect / Chrome motoros, de reklám mentes) #>
-
+"Mozilla.Firefox" <#Firefox browser böngésző #>
 "TheDocumentFoundation.LibreOffice" <# best and libre Office text-table-prezent.pack / ingyenes, nyílt forráskódú Office szövegszerk-táblázatkez-prezentáció programcsomag #>
-
 "IrfanSkiljan.IrfanView" #Best Img Viewer and Editor / Legjobb Képnézegető és képszerkesztő
 "VideoLAN.VLC" #Best sound, music, and video player / Legjobb zene és videó lejátszó 
 "FreeCommander" #Free file menager / Kiváló ingyenes fájlkezelő
+"7zip.7zip" <# best archiver / a legjobb archiváló - tömörítő - program #> 
+"Google.Chrome.EXE" <#Chrome browser böngésző #>
+
 )
 
 foreach ($app in $apps) {
