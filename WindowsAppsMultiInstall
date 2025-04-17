@@ -27,14 +27,21 @@ Ha 1-1 program mégsem kell neked, annak lejjebb a "programsor" elejére tegyél
 #>
 
 #Start#
-Write-Output "Push Y so yes, to run of script."
-Write-Output "Nyomj Y-t, mint yes/igent a szkript lefutásának engedélyezéséhez."
+Write-Output "Push Y so yes, to run of script, if need to your machine." ;
+Write-Output "Nyomj Y-t, azaz yes/igent a szkript lefuttatas engedelyezesehez, ha keri a geped.";
+Write-Output "********************************************************";
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP / FAVORIT APPOK INSTALLJA - CSOPORTOSAN"
-Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL / HA MÉGSEM KELL, A SZKRIPT LEFUTÁSA UTÁN LEHET UNINSTALL."
-Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. / MOST A MUNKA KB. 2-3 PERCIG TART, NE ZÁRD BE EZT AZ ABLAKOT."
-Write-Output "Push Enter. / Nyomj Entert."
+Write-Output "INSTALLING FAVORIT APPS IN GROUP";
+Write-Output "FAVORIT APPOK INSTALLJA - CSOPORTOSAN";
+Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL";
+Write-Output "HA MEGSEM KELL, A SZKRIPT LEFUTASA UTAN LEHET UNINSTALL.";
+Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. ";
+Write-Output "MOST A MUNKA KB. 2-3 PERCIG TART, NE ZARD BE EZT AZ ABLAKOT.";
+Write-Output "______________________________";
+Write-Output "Nyomj ENTERT a folytatashoz...";
 PAUSE
+Write-Output "START INSTALL PROGRAMMS... MOMENTS...";
+Write-Output "START PROGRAMOK TELEPITESE... TURELEM...";
 $apps = @(
 
 "Brave.Brave" <# Brave browser böngésző (Chrome engine, but ad-free, secure, personal protect / Chrome motoros, de reklám mentes) #>
@@ -46,23 +53,23 @@ $apps = @(
 "7zip.7zip" <# best archiver / a legjobb archiváló - tömörítő - program #> 
 "Google.Chrome.EXE" <#Chrome browser böngésző #>
 
-#"9P6PMZTM93LR" <# The Best Microsoft Windows Defender sec.app only with MS account. No need price, if is good and fast without price / A Legjobb Microsoft Windows Defender vírusirtó. Csak MS fiókkal! Felesleges fizetni, ha van ilyen jó és gyors ingyenes #> 
-
 )
 
 foreach ($app in $apps) {
-    Write-Output "Trying to Install $app"
+    Write-Output "Trying to Install/Telepites... $app"
 
     Winget Install $app
     }
 
-<# GODMODE best extended Control panel: / Godmode, a legjobb kiterjesztett Vezérlőpult: #>
+Write-Output "Plus gift - Godmode best extended Control panel made:";
+Write-Output "Plusz ajándék - Godmode, a legjobb kiterjesztett Vezerlopult letrehozva:";
+
  New-Item -Path '.\Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
 
-echo "EXTRA! EXTRA! EXTRA! Wait. / Várj egy kicsit... Million thank ChrisTitus.com. Enter..."
+Write-Output "EXTRA! EXTRA! EXTRA! Wait. No need? Close Windows/ Varj egy kicsit... Mutatok egy webes szkriptet, amivel rengeteg Windows beallitast tudsz elvegezni, nagyon egyszeruen. Million thank ChrisTitus.com. Nyomj Entert... Ha nem erdekel, zard be az ablakot.";
+Write-Output "Million thank ChrisTitus.com.";
 pause
 iwr -useb https://christitus.com/win | iex
-
 
 #End#
 
