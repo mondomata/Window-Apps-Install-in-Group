@@ -36,7 +36,7 @@ foreach ($app in $apps) {
 Write-Output "Plus gift - Godmode best extended Control panel made:";
 Write-Output "Plusz ajándék - Godmode, a legjobb kiterjesztett Vezerlopult letrehozva:";
 
-New-Item -Path '.\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
+ New-Item -Path '.\Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
 
 Write-Output "EXTRA! EXTRA! EXTRA! Wait. No need? Close Windows/ Varj egy kicsit... Mutatok egy webes szkriptet, amivel rengeteg Windows beallitast tudsz elvegezni, nagyon egyszeruen. Million thank ChrisTitus.com. Nyomj Entert... Ha nem erdekel, zard be az ablakot.";
 Write-Output "Million thank ChrisTitus.com.";
