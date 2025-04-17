@@ -28,7 +28,7 @@ $apps = @(
 )
 
 foreach ($app in $apps) {
-    Write-Output "Trying to Install $app"
+    Write-Output "Trying to Install/Telepítés... $app"
 
     Winget Install $app
     }
