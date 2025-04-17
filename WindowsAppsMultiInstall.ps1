@@ -1,19 +1,14 @@
 
-Write-Output "Push Y so yes, to run of script, if need to your machine." ;
-Write-Output "Nyomj Y-t, azaz yes/igent a szkript lefuttatas engedelyezesehez, ha keri a geped.";
+Write-Output "Push Y so yes, to run of script, if need to your machine. - Nyomj Y-t, azaz yes/igent a szkript lefuttatas engedelyezesehez, ha keri a geped.";
 Write-Output "********************************************************";
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP";
-Write-Output "FAVORIT APPOK INSTALLJA - CSOPORTOSAN";
-Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL";
-Write-Output "HA MEGSEM KELL, A SZKRIPT LEFUTASA UTAN LEHET UNINSTALL.";
-Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. ";
-Write-Output "MOST A MUNKA KB. 2-3 PERCIG TART, NE ZARD BE EZT AZ ABLAKOT.";
+Write-Output "INSTALLING FAVORIT APPS IN GROUP - FAVORIT APPOK INSTALLJA - CSOPORTOSAN";
+Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL - HA MEGSEM KELL, A SZKRIPT LEFUTASA UTAN LEHET UNINSTALL.";
+Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. - MOST A MUNKA KB. 2-3 PERCIG TART, NE ZARD BE EZT AZ ABLAKOT.";
 Write-Output "______________________________";
 Write-Output "Nyomj ENTERT a folytatashoz...";
 PAUSE
-Write-Output "START INSTALL PROGRAMMS... MOMENTS...";
-Write-Output "START PROGRAMOK TELEPITESE... TURELEM...";
+Write-Output "START INSTALL PROGRAMMS... MOMENTS... - START PROGRAMOK TELEPITESE... TURELEM...";
 $apps = @(
 
 "Brave.Brave" <# Brave browser böngésző (Chrome engine, but ad-free, secure, personal protect / Chrome motoros, de reklám mentes) #>
@@ -33,8 +28,7 @@ foreach ($app in $apps) {
     Winget Install $app
     }
 
-Write-Output "Plus gift - Godmode best extended Control panel made:";
-Write-Output "Plusz ajándék - Godmode, a legjobb kiterjesztett Vezerlopult letrehozva:";
+Write-Output "Plus gift - Godmode best extended Control panel made: - Plusz ajándék - Godmode, a legjobb kiterjesztett Vezerlopult letrehozva:";
 
  New-Item -Path '.\Desktop\.{ED7BA470-8E54-465E-825C-99712043E01C}' -ItemType Directory
 
