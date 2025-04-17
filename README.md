@@ -6,7 +6,7 @@ THE SIMULTANEOUSLY INSTALLED PROGRAMMS ANYTIME CAN BE DELETED FROM YOUR WINDOWS.
 
 +++EXTRA KÖNNYŰ MEGOLDÁS:
 MÁSOLD ÉS ILLESZD BE A TELJES SZÖVEGET A <CODE>WindowsAppsMultiInstall</CODE> FÁJLBÓL A WINDOWS POWERSHELL(RENDSZERGAZDA) ABLAKÁBA, ÉS NYOMJ ENTERT.
-AZ ÍGY EGYSZERRE TELEPÍTETT PROGRAMOKAT BÁRMIKOR TÖRÖLHETED A WINDOWS-ODBÓL. (Jobb klikk Windows Start és válaszd: a Powershell(rendszergazda) vagy Terminal(rendszergazda) 
+AZ ÍGY EGYSZERRE TELEPÍTETT PROGRAMOKAT BÁRMIKOR TÖRÖLHETED A WINDOWS-ODBÓL. (Jobb klikk Windows Starton <kbd>![windowsbill](https://github.com/user-attachments/assets/85cd7478-4ebe-4051-98cf-bde8cbaba2d3)</kbd>és válaszd: a Powershell(rendszergazda) vagy Terminal(rendszergazda) 
 
 <i>Ha még a másolással sem akarsz szenvedni, töltsd le a <CODE>WindowsAppsMultiInstall.ps1</CODE> fájlt, és futtasd Powershell/Terminál rendszergazdaként.</i>
 
