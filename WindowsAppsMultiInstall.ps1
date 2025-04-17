@@ -2,7 +2,7 @@
 Write-Output "Push Y so yes, to run of script, if need to your machine. - Nyomj Y-t, azaz yes/igent a szkript lefuttatas engedelyezesehez, ha keri a geped.";
 Write-Output "********************************************************";
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Write-Output "INSTALLING FAVORIT APPS IN GROUP - FAVORIT APPOK INSTALLJA - CSOPORTOSAN";
+Write-Output "INSTALLING FAVORIT APPS IN GROUP - FAVORIT APPOK INSTALLJA CSOPORTOSAN";
 Write-Output "IF FOR YOU NEED CANCEL, AFTER RUN SCRIPT CAN UINSTALL - HA MEGSEM KELL, A SZKRIPT LEFUTASA UTAN LEHET UNINSTALL.";
 Write-Output "THE WORK MAYBE 2-3 MINUTES, DO NOT CLOSE THIS WINDOW. - MOST A MUNKA KB. 2-3 PERCIG TART, NE ZARD BE EZT AZ ABLAKOT.";
 Write-Output "______________________________";
