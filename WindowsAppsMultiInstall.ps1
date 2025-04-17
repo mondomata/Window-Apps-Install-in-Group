@@ -1,6 +1,6 @@
 
 Write-Output "Push Y so yes, to run of script, if need to your machine." ;
-Write-Output "Nyomj Y-t, azaz yes/igen a szkript lefutásának engedélyezéséhez, ha kéri a géped.";
+Write-Output "Nyomj Y-t, azaz yes/igent a szkript lefutásának engedélyezéséhez, ha kéri a géped.";
 Write-Output "********************************************************";
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Write-Output "INSTALLING FAVORIT APPS IN GROUP";
